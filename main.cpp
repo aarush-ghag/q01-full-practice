@@ -3,11 +3,11 @@
 int main() {
     int number;
 
-for (int i=0; i<3; ++i){
-cout << "Enter an integer: " << endl;
-cin >> number >> endl;
+for (int i = 0; i < 3; i++) {
+    std::cout << "Enter an integer: ";
+    std::cin >> number;
 
-cout << "You entered: " << number << endl;
+    std::cout << "You entered: " << number << std::endl;
 }
 
 return 0;
