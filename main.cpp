@@ -2,9 +2,8 @@
 
 int main() {
     int number;
-
 for (int i = 0; i < 3; i++) {
-    std::cout << "Enter an integer: ";
+    std::cout << "Please enter a number: ";
     std::cin >> number;
 
     std::cout << "You entered: " << number << std::endl;
