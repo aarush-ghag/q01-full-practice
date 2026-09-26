@@ -3,10 +3,13 @@
 int main() {
     int number;
 
-    std::cout << "Enter an integer: ";
-    std::cin >> number;
+for (int i=0; i<3; ++i){
+cout << "Enter an integer: " << endl;
+cin >> number >> endl;
 
-    std::cout << "You entered: " << number << std::endl;
+cout << "You entered: " << number << endl;
+}
 
-    return 0;
+return 0;
+
 }
